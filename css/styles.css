@@ -16,7 +16,34 @@
 .page {
     color: var(--primary-text-color);
 }
- .filter-button{
+
+.logo {
+color: var(--accent-color);
+}
+
+.logo:active {
+color: #800080;
+}
+
+.site-nav-list .link {
+    color: var(--accent-color);
+}
+
+.site-nav-list .link:active{
+    color: #800080;
+}
+
+ /*Section*/
+ .section-title{
+    color:var(--primary-text-color) ;
+ }
+
+ .section-text{
+ color:var(--secondary-text-color);
+ }
+   
+ 
+.filter-button{
   background-color: var(--filter-color);
   color: var(--primary-text-color);
  }
@@ -26,12 +53,20 @@
     background-color: var(--accent-color);
  }
 
- .button:hover{
-background-color: ;
+ .button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
  }
 
- .button:focus{
-    background-color: ;
+ .header-button:active{
+ color:#800080;
  }
 
+ .button:active{
+    color:#800080;
+ }
+
+ ul{
+    list-style: none;
+ }
  
