@@ -1,11 +1,37 @@
-/* Колір заголовків тексту #212121*/
+/* Колір головного тексту #212121*/
 /*Колір другорядного тексту #757575*/
 /*білий #FFFFFF*/
 /*Акцент #2196F3*/
+/*Колір фону*/
 
 :root{
-    --primary-text-color:;
-    --title-text-color:;
-    --accent-color:
-    --white-color: 
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+    --background-color: #F5F5F5;
+    --filter-button-color:#F5F4FA;
 }
+
+.page {
+    color: var(--primary-text-color);
+}
+ .filter-button{
+  background-color: var(--filter-color);
+  color: var(--primary-text-color);
+ }
+
+ .header-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+ }
+
+ .button:hover{
+background-color: ;
+ }
+
+ .button:focus{
+    background-color: ;
+ }
+
+ 
