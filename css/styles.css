@@ -103,6 +103,15 @@ color: var(--accent-color);
  /*Section*/
  .section-title {
     color:var(--secondary-text-color) ;
+
+ }
+
+ .section-advantages-title{
+
+ }
+
+ .list-text{
+   
  }
 
  .adress-title {
@@ -110,7 +119,7 @@ color: var(--accent-color);
  }
  
 
-
+ /*Сторінка портфоліо*/
  
 .filter-button {
   background-color: var(--filter-color);
