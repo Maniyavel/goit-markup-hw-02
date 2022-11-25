@@ -59,9 +59,18 @@ color: var(--secondary-text-color);
     color: var(--accent-color);
 }
 
-
-
 .header-contacts{
+   color: var(--secondary-text-color);
+
+}
+
+.header-contacts.current{
+color: var(--accent-color);
+}
+
+.header-contacts .footer-contacts:hover,
+.header-contacts .footer-contacts:focus{
+   color: var(--accent-color)
 
 }
 
