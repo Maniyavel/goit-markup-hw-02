@@ -2,14 +2,16 @@
 /*Колір другорядного тексту #757575*/
 /*білий #FFFFFF*/
 /*Акцент #2196F3*/
-/*Колір фону*/
+/*Колір фону головний*/
+/*Колір фону другорядний*/
 
 :root{
     --primary-text-color:#757575;
     --secondary-text-color:#212121;
     --accent-color:#2196F3;
     --white-color:#FFFFFF;
-    --background-color: #F5F5F5;
+    --background-color-main: #F5F5F5;
+    --background-color-secondary: #2F303A;
     --filter-button-color:#F5F4FA;
 }
 
@@ -51,14 +53,12 @@ color: var(--secondary-text-color);
    text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus{
-   color: var()
-}
+
 .site-nav .link.current{
     color: var(--accent-color);
 }
-
+ 
+/*Контакти*/
 .header-contacts{
    color: var(--secondary-text-color);
 
@@ -74,17 +74,25 @@ color: var(--accent-color);
 
 }
 
+.footer-list{
+   background-color: var(--background-color-secondary);
+  
+
+}
+.footer-contacts{
+   color: #FFFFFF;
+}
 
 
-
-
-
-
- /*Герой*/
+/*Герой*/
+.hero{
+   background-color: var(--background-color-secondary);
+}
 .hero-title {
     color: var(--white-color);
  }
-.hero-button:active {
+
+ .hero-button:active {
    color: #800080;
 }
  .hero-button {
