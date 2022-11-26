@@ -105,6 +105,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    cursor: pointer;
 }
  
  /*Section*/
@@ -221,6 +222,13 @@
    color: var(--accent-color);
    }
   
+  .header-button{
+   cursor: pointer;
+  }
+
+  .filter-button{
+   cursor: pointer;
+  }
  
  .header-button:hover,
  .header-button:focus{
