@@ -26,7 +26,6 @@
 .logo {
    color: var(--accent-color);
    font-family: Raleway, sans-serif;
-   font-style: normal;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.192;
@@ -37,11 +36,10 @@
    color: var(--secondary-text-color);
 }
 
-
-
 .logo:active{
    color: var(--secondary-text-color);
 }
+
 
 /*Навігація*/
 .site-nav .link{
@@ -64,15 +62,16 @@
  
 /*Контакти*/
 .header-contacts {
-   color: var(--secondary-text-color);
+   color: var(--primary-text-color);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.142;
    text-decoration: none;
+   
 }
 
 .contact-list .header-contacts .current{
-   color: var(--background-color-secondary);
+   color: var(--primary-text-color);
 }
 
 .contact-list .header-contacts:hover,
@@ -86,87 +85,85 @@
    background-color: var(--background-color-secondary);
 }
 .hero-title {
-    color: var(--white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
-    text-align: center;
-    letter-spacing: 0.06em;
+   color: var(--white-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.363;
+   text-align: center;
+   letter-spacing: 0.06em;
  }
 
- .hero-button:active {
-   color: #800080;
+.hero-button:active {
+   color: var(--background-color-secondary);
 }
  
 .hero-button {
-    color: var(--white-color);
-    background-color: var(--accent-color);
-    border:none;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    cursor: pointer;
+   color: var(--white-color);
+   background-color: var(--accent-color);
+   border:none;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.88;
+   cursor: pointer;
 }
  
- /*Section*/
+/*Section*/
 
-   .advantages-section-title{
-      color: var(--secondary-text-color);
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.143;
-   }
+.advantages-section-title{
+   color: var(--secondary-text-color);
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.143;
+}
 
-   .advantages-list-text{
-      font-weight: 400;
-      font-size: 1.714;
-      line-height: 24px;
-    }
+.advantages-list-text{
+   font-weight: 400;
+   font-size: 1.714;
+   line-height: 24px;
+}
 
-  
-   .work-section-title {
-      color: var(--secondary-text-color);
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.166;
-      text-align: center;
-   }
+.work-section-title {
+   color: var(--secondary-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.166;
+   text-align: center;
+}
 
-   .team-section{
-      color: var(--secondary-text-color);
-      background-color: var(--filter-button-color);
-   }
+.team-section{
+   color: var(--secondary-text-color);
+   background-color: var(--filter-button-color);
+}
 
-   .team-section-title{
-      font-weight: 700;
-      font-size: 36px;
-      line-height: 1.166;
-      text-align: center;
-   }
+.team-section-title{
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.166;
+   text-align: center;
+}
 
-  .team-secondary-title{
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 1.187;
-  }
+.team-secondary-title{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.187;
+}
 
-  .team-list-text{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.187;
-  }
+.team-list-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.187;
+}
 
  
-  /*Підвал*/
- 
+/*Підвал*/
+
 .logo-footer-accent{
    color: var(--white-color);
 }
 
-.adress-text {
-   color: var(--white-color);
-   font-style: normal;
- }
+.adress-text{
+   font-style: initial;
+}
 
 .footer-list{
    background-color: var(--background-color-secondary);
@@ -183,20 +180,15 @@
    text-decoration: none;
 }
 
-.adress-text{
-  font-family: inherit;
-}
-
 .footer-contacts:hover,
 .footer-contacts:focus{
    color: var(--accent-color);
 }
 
  
+/*Сторінка портфоліо*/
 
- /*Сторінка портфоліо*/
-
- .visually-hidden{
+.visually-hidden{
    position: absolute;
    white-space: nowrap;
    width: 1px;
@@ -207,19 +199,16 @@
    clip:rect(0 0 0 0);
    clip-path: inset(50%);
    margin: -1px;
- }
+}
 
- .portfolio-button{
+.portfolio-button{
    font-weight: 500;
    font-size: 16px;
    line-height: 1.625;
    border:none;
- }
+}
 
- 
-
-  
-  .header-button{
+.header-button{
    color: var(--white-color);
    background-color: var(--accent-color);
    cursor: pointer;
@@ -234,31 +223,30 @@
    color: var(--filter-button-color);
 }
 
-  .filter-button{
+.filter-button{
    color: var(--secondary-text-color);
    background-color: var(filter-button-color);
    cursor: pointer;
    border:none;
-  }
+}
  
 
-
- ul {
-    list-style: none;
- }
-
- .portfolio-list-title{
+.portfolio-list-title{
    color: var(--secondary-text-color);
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
+}
 
- }
-
- .portfolio-list-text{
+.portfolio-list-text{
    font-weight: 400;
    font-size: 16px;
    line-height: 1.875;
+}
 
- }
+ul{
+   list-style: none;
+}
+
+
  
