@@ -210,8 +210,8 @@
 }
 
 .header-button{
-   color: var(--secondary-text-color);
-   background-color: var(filter-button-color);
+   color: var(--white-color);
+   background-color: var(--accent-color);
    border:none;
    cursor: pointer;
 }
@@ -222,7 +222,7 @@
 
 .header-button:hover,
 .header-button:focus{
-   color: var(--accent-color);
+   color: var(--background-color-secondary);
 }
 
 .filter-button{
