@@ -217,7 +217,7 @@
 }
 
 .header-button:active{
-   color: var(--white-color);
+   color: var(--secondary-text-color);
 }
 
 .header-button:hover,
